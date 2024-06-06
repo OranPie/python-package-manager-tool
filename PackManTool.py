@@ -809,7 +809,7 @@ def shell_():
 ================================================================
 Shell Check Process
 
-This Program  Isn't Run on Shell (e.g. zsh bash cmd powershell)
+This Program  Isn't Run on Shell/TTY-like object (e.g. zsh bash cmd powershell)
 ================================================================
 
 Still Execute(Y/n)?"""
@@ -833,7 +833,7 @@ def mstart():
     try:
         mainMenu(True)
     except:
-        print("an error!")
+        print("A error ocurred")
         mstart()
 
 mstart()
