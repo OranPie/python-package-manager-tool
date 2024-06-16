@@ -2,5 +2,5 @@
 
 Please use a Terminal(TTY-like) to run.
 
-Stop update.
-#### poo code (shit!)
+Stop Support/Update.
+~~poo code :shit:~~
